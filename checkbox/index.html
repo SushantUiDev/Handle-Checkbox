@@ -1,0 +1,52 @@
+<html>
+
+<head>
+	<title>index</title>
+	<script src="jquery-3.1.0.js"></script>
+	<style>
+		#table1{
+			border: 1px solid blue;
+			position: relative;
+			left:400px;
+		}
+	</style>
+	<script src="script/demo.js"></script>
+	
+</head>
+
+<body>
+	<h2>Student Details</h2>
+	<hr>
+	<table id="table1" border="2px solid red;">
+		<tr>
+			<th>SR.NO</th>
+			<th>SNAME</th>
+			<th>LOC</th>
+			<th>Delete</th>
+			<th>Select</th>
+		</tr>
+		<tr>
+			<td>01</td>
+			<td>Sushant</td>
+			<td>Hyd</td>
+			<td><button name="delete" class="delete" value="delete" click="deletProduct(user)">Delete</button></td>
+			<td><input type="checkbox" name="checked" class="btnCheck" value="checked"></td>
+		</tr>
+		<tr>
+			<td>02</td>
+			<td>Vicky</td>
+			<td>Hyd</td>
+			<td><button name="delete" class="delete" value="delete">Delete</button></td>
+			<td><input type="checkbox" name="checked" class="btnCheck" value="checked"></td>
+		</tr>
+		<tr>
+			<td>03</td>
+			<td>Nikhil</td>
+			<td>Hyd</td>
+			<td><button name="delete" class="delete" value="delete">Delete</button></td>
+			<td><input type="checkbox" name="checked" class="btnCheck" value="checked"></td>
+		</tr>
+	</table>
+</body>
+
+</html>
